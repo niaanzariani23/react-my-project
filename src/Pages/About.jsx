@@ -7,15 +7,15 @@ export default function About() {
 
   const color = ["sky", "red", "green"];
   const picture =[
-    "/gambar1.jpg",
-    "/sunset.jpg",
-    "/gambar2.jpg"
+    "/react-my-project/gambar1.jpg",
+    "/react-my-project/sunset.jpg",
+    "/react-my-project/gambar2.jpg"
     ];
 
   return (
     <div>
       <h1>About</h1>
-      <HyperLink to={"/"}>
+      <HyperLink to={"/react-my-project/"}>
         <p>Go To Home</p>
       </HyperLink>
 

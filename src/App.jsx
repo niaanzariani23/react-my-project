@@ -9,10 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/cuaca" element={<Cuaca/>} />
-        <Route path="/portofolio" element={<Portofolio/>} />
+        <Route path="/react-my-project/" element={<Home />} />
+        <Route path="/react-my-project/about/" element={<About />} />
+        <Route path="/react-my-project/cuaca/" element={<Cuaca/>} />
+        <Route path="/react-my-project/portofolio/" element={<Portofolio/>} />
       </Routes>
     </BrowserRouter>
   );
